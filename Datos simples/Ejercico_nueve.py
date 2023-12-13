@@ -1,0 +1,5 @@
+cantidad_invertir= float(input("Introduce el capital que quiere invertir: "))
+interes_anual = float (input("Introduce el interes anual: "))
+numero_años = float(input ("introduce el numero de años de la inversión: "))
+inversion= (round(cantidad_invertir * (interes_anual / 100 + 1) ** numero_años, 2))
+print("El capital obtenido seria el siguiente", inversion)
